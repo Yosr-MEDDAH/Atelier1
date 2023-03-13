@@ -1,0 +1,6 @@
+
+{% extends 'base.html.twig' %}
+{% block body %}
+    <a href="{{ path('app_calcul_somme',{'num1':x,'num2':y}) }}" >Somme</a><br>
+    <a href="{{ path('app_calcul_soustraction',{'num1':x,'num2':y}) }}" >Soustraction</a>
+{% endblock %}
